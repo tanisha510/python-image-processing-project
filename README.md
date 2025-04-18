@@ -49,3 +49,23 @@ def save_image_copy(image_path, new_name):
 image_file = r"C:\Users\ASUS\OneDrive\Desktop\project\example.jpg"
 open_and_show_image(image_file)
 save_image_copy(image_file, "copy_example.jpg")
+---
+
+## About the Project
+
+This is a beginner Python image processing project using the Pillow library. It includes:
+
+- Displaying an image
+- Saving a new image copy
+- Basic exception handling
+
+### Tech Used:
+- Python 3
+- Pillow (PIL)
+
+### How to Run:
+1. Install Pillow: pip install Pillow
+2. Run the file: python project.py
+
+### Output:
+![Output](copy_example.jpg)
